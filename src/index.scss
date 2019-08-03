@@ -7,12 +7,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #fff;
 }
-.active {
-  font-size: 20px;
-  color: red;
+.ulNav .active {
+  color: green;
 }
 html,
 body {
   height: 100%;
   width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
